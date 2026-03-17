@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# 🌸 Shanisa Diaries
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal developer blog and portfolio website built with React — documenting my journey from Executive Assistant to self-taught Flutter developer.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💡 Purpose
 
-### `npm start`
+This website was created to share my personal story of learning Flutter from scratch with no IT background, no coding experience, and no formal software education.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It serves as:
+- A **portfolio** to showcase my Flutter projects and development work
+- A **journal** to document my honest learning journey — the wins, the confusion, and everything in between
+- A **resume** to present my professional background and technical skills
+- A **services page** to let potential clients know what I offer as a freelance developer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If you are starting from zero too, this is proof that it is possible. 🌸
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 🏠 **Home** — animated hero with typing text, pastel floating blobs, stats, and profile photo upload
+- 👩‍💻 **About** — personal story, skills, and career timeline from 2021 to present
+- 📱 **Portfolio** — Flutter projects with descriptions, tech stack, and GitHub links
+- 📖 **Journal** — personal blog entries with an AI writing assist powered by Claude API
+- ✨ **Services** — freelance services offered: Flutter development, UI/UX design, AI integration, and consultation
+- 📄 **Resume** — full CV with work experience, education, skills, and print to PDF
+- 💌 **Contact** — links to all social platforms
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Technology | Usage |
+|---|---|
+| React | Frontend framework |
+| CSS-in-JS (inline styles) | Styling and animations |
+| Claude API (Anthropic) | AI writing assist in journal editor |
+| localStorage | Persistent storage for projects, posts, and photo |
+| GitHub | Version control and source hosting |
+| Netlify | Deployment and hosting |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js installed on your machine
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/sheinah/shanisa-diaries.git
 
-## Learn More
+# Navigate into the project
+cd shanisa-diaries
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start the development server
+npm start
+```
 
-### Code Splitting
+The app will run at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Build for Production
 
-### Analyzing the Bundle Size
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This site is deployed on **Netlify**.
 
-### Advanced Configuration
+To deploy your own version:
+1. Run `npm run build`
+2. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
+3. Drag and drop the `build` folder
+4. Your site is live!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+shanisa-diaries/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js        # Main application — all pages and components
+│   └── index.js      # React entry point
+├── package.json
+└── README.md
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👩‍💻 About Me
+
+**Shanisa Churat** — Freelance Flutter Developer & UI/UX Designer based in Bangkok, Thailand 🇹🇭
+
+I started learning to code in 2022 with zero software background. Before tech, I worked as an Executive and Personal Assistant to international CEOs. I picked Flutter because the apps looked beautiful — and that was honestly reason enough to start.
+
+- 📧 sheinah.ch@gmail.com
+- 💼 [linkedin.com/in/shanisa-churat-289a34254](https://www.linkedin.com/in/shanisa-churat-289a34254/)
+- 🐙 [github.com/sheinah](https://github.com/sheinah)
+- 📸 [@sheinah_sh](https://www.instagram.com/sheinah_sh/)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+*Built with 🌸 and a lot of curiosity.*
